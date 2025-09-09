@@ -1,35 +1,36 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-import FeatureCard from '../components/FeatureCard.vue'
+  import { ref } from 'vue';
 
-const title = ref('Vue + TypeScript + Tailwind CSS')
-const features = [
-  {
-    title: 'Vue 3',
-    description: 'Leverage the power of Vue 3 with Composition API for better code organization and reusability.',
-    icon: '⚡'
-  },
-  {
-    title: 'TypeScript',
-    description: 'Enjoy type safety and better developer experience with TypeScript integration.',
-    icon: '🔒'
-  },
-  {
-    title: 'Tailwind CSS',
-    description: 'Build beautiful UIs quickly with the utility-first CSS framework.',
-    icon: '🎨'
-  },
-  {
-    title: 'Vite',
-    description: 'Lightning fast development server and optimized production builds.',
-    icon: '🚀'
-  }
-]
+  import FeatureCard from '../components/FeatureCard.vue';
 
-const count = ref(0)
-const increment = () => {
-  count.value++
-}
+  const title = ref('Vue + TypeScript + Tailwind CSS');
+  const features = [
+    {
+      title: 'Vue 3',
+      description: 'Leverage the power of Vue 3 with Composition API for better code organization and reusability.',
+      icon: '⚡'
+    },
+    {
+      title: 'TypeScript',
+      description: 'Enjoy type safety and better developer experience with TypeScript integration.',
+      icon: '🔒'
+    },
+    {
+      title: 'Tailwind CSS',
+      description: 'Build beautiful UIs quickly with the utility-first CSS framework.',
+      icon: '🎨'
+    },
+    {
+      title: 'Vite',
+      description: 'Lightning fast development server and optimized production builds.',
+      icon: '🚀'
+    }
+  ];
+
+  const count = ref(0);
+  const increment = () => {
+    count.value++;
+  };
 </script>
 
 <template>

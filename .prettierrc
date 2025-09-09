@@ -1,0 +1,19 @@
+{
+  "semi": true,
+  "tabWidth": 2,
+  "printWidth": 100,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "vueIndentScriptAndStyle": true,
+  "plugins": ["prettier-plugin-organize-imports"],
+  "overrides": [
+    {
+      "files": "*.vue",
+      "options": {
+        "parser": "vue",
+        "vueIndentScriptAndStyle": true
+      }
+    }
+  ]
+}
